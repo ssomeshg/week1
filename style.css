@@ -66,14 +66,14 @@ body{
 .pricing__box{
     display: flex;
     flex-wrap: wrap;
-    gap:100px;
+    gap:20px;
     padding: 50px;
 }
 
 .pricing__detail{
     background-color: black;
     color: #fff;
-    flex-basis: 33%;
+    flex-basis: 25%;
     flex-grow: 1;
     padding: 20px;
     border-radius: 20px;

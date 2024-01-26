@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+.navbar{
+    padding: 10px;
+    background-color: black;
+}
+
+.navitems {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.navitems a{
+
+    color: #fff;
+    font-size: x-large;
+}
+.image__galery{
+    background-color: rgb(255, 234, 207);
+    padding: 50px;
+}
+
+.img__title h1{
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.img__item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img__item .img__part{
+    flex-basis: 20%;
+    flex-grow: 1;
+    padding: 10px;
+    
+}
+.img__part img{
+   width: 100%;
+   border: 5px solid black;
+   border-radius: 10px;
+}
+.pricing__section{
+    padding: 50px;
+}
+
+.pricing__section--title{
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.pricing__box{
+    display: flex;
+    gap:100px;
+    padding: 50px;
+}
+
+.pricing__detail{
+    background-color: black;
+    color: #fff;
+    flex-basis: 33%;
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 20px;
+}
+.pricing__detail--heading{
+    text-align: center;
+}
+
+.pricing__detail--content{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
